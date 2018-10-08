@@ -8,7 +8,7 @@ These days every one is building microservices, for a new business it may be too
 
 ## What's in the Box
 
-1. Bare bone JavaScript project structure 
+1. Bare bone JavaScript project structure
 1. Linting based on AirBnB rules
 1. Routes nicely structured as controllers
 1. Views
@@ -19,3 +19,5 @@ These days every one is building microservices, for a new business it may be too
 
 ## License
 MIT
+
+Thanks
