@@ -18,4 +18,25 @@ module.exports = (router) => {
 
     res.json(data);
   });
+
+  /**
+   * @swagger
+   * /api/sample/merchants:
+   *   get:
+   *     description: Get All Merchants API
+   *     produces:
+   *       - application/json
+   *     responses:
+   *       200:
+   *         description: success
+   */
+
+  router.get('/merchants', (req, res) => {
+    const data = {
+      success: true,
+      message: 'Get all merchants'
+    };
+
+    res.json(data);
+  });
 };
